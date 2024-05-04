@@ -1538,40 +1538,26 @@ async def check_plans_cmd(client, message):
         await asyncio.sleep(2)
         await m.delete()
 
-@Client.on_message(filters.command("BAGHIN"))
+@Client.on_message(filters.command("List"))
 async def serials_bj(client, message):
-    await message.reply_text("""how to search <b>BAGHIN<b> episodes
-
-<code>Baghin S01E01</code> (tap to copy)""")
-
-@Client.on_message(filters.command("GANGA"))
-async def serials_bj(client, message):
-    await message.reply_text("""how to search <b>PAAPNAASHINI GANGA<b> episodes
-
-<code>PAAPNAASHINI GANGA S01E01</code> (tap to copy)""")
-
-@Client.on_message(filters.command("RK"))
-async def serials_bj(client, message):
-    await message.reply_text("""how to search <b>RADHAKRISHN<b> episodes
-
-<code>RADHAKRISHN S01E01</code> (tap to copy)""")
-
-@Client.on_message(filters.command("content"))
-async def serials_bj(client, message):
-    await message.reply_text("""<b>Available Serial </b>
+    await message.reply_text("""<b>Available Serial List </b>
     
-╭━━ Available Serial 😇━
-┣
-┣ Dhruv Tara ➺ 【✅ / ♾】
-┣ Shiv Shakti Shakti【07 / ♾】
-┣ DEVON KE DEV MAHADEV 【✅ 】
-┣ MAHABHARAT 【✅ 】
-┣ BIGG BOSS OTT SEASON 02 【✅ 】
-┣ KHATRON KE KHILADI S13 【✅ 】
-┣PAAPNAASHINI GANGA  【13/88 】
-┣
-┣More Soon...
-┣
-╰━@Entertainment_Official_Bot━━━━
+● BAGHIN /BAGHIN 
+● PAAPNAASHINI GANGA /GANGA
+● RADHAKRISHN /RK
+● Lakshmi Narayan /LN
+● JANANI AI KI KAHANI /JANANI
+● MATA KI MAHIMA /MATA
+● MAIN CHANNEL /CHANNEL
+
+<b>Note:</b>Join Main channel to get all letest searial and movie link
+
+""")
+
+@Client.on_message(filters.command("Baghin"))
+async def serials_bj(client, message):
+    await message.reply_text("""<b>how to search BAGHIN episodes</b>
+
+<code>Baghin S01E01</code> {tap to copy}
 
 """)
