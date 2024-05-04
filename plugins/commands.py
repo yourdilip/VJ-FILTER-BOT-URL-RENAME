@@ -1538,22 +1538,29 @@ async def check_plans_cmd(client, message):
         await asyncio.sleep(2)
         await m.delete()
 
-@Client.on_message(filters.command("List"))
+@Client.on_message(filters.command("content"))
 async def serials_bj(client, message):
-    await message.reply_text("""<b>Available Serial List </b>
+    await message.reply_text("""<b>Available Serial </b>
     
-● BAGHIN /BAGHIN 
-● PAAPNAASHINI GANGA /GANGA
-● RADHAKRISHN /RK
-● Lakshmi Narayan /LN
-● JANANI AI KI KAHANI /JANANI
-● MATA KI MAHIMA /MATA
-● MAIN CHANNEL /CHANNEL
-
-<b>Note:</b>Join Main channel to get all letest searial and movie link
+╭━━ Available Serial 😇━
+┣
+┣ Dhruv Tara ➺ 【✅ / ♾】
+┣ Shiv Shakti Shakti【07 / ♾】
+┣ DEVON KE DEV MAHADEV 【✅ 】
+┣ MAHABHARAT 【✅ 】
+┣ BIGG BOSS OTT SEASON 02 【✅ 】
+┣ KHATRON KE KHILADI S13 【✅ 】
+┣ PAAPNAASHINI GANGA  【13/88 】
+┣ BAGHIN 【♾】
+┣ MATA KI MAHIMA 【♾】
+┣ JANANI AI KI KAHANI 【♾】
+┣ LAKSHMI NARAYAN 【♾】
+┣
+┣More Soon...
+┣
+╰━@Entertainment_Official_Bot━━━━
 
 """)
-
 @Client.on_message(filters.command("Baghin"))
 async def serials_bj(client, message):
     await message.reply_text("""<b>how to search BAGHIN episodes</b>
