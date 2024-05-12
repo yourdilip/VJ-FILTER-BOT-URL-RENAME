@@ -1540,27 +1540,29 @@ async def check_plans_cmd(client, message):
 
 @Client.on_message(filters.command("content"))
 async def serials_bj(client, message):
-    await message.reply_text("""<b>Available Serial </b>
+    await message.reply_text("""<b>The List Of Available Serials</b>
     
-╭━━ Available Serial 😇━
-┣
-┣ Dhruv Tara ➺ 【✅ / ♾】
-┣ Shiv Shakti Shakti【07 / ♾】
-┣ DEVON KE DEV MAHADEV 【✅ 】
-┣ MAHABHARAT 【✅ 】
-┣ BIGG BOSS OTT SEASON 02 【✅ 】
-┣ KHATRON KE KHILADI S13 【✅ 】
-┣PAAPNAASHINI GANGA  【13/88 】
-┣ BAGHIN
-┣ MATA KI MAHIMA
-┣ JANANI AI KI KAHANI 
-┣ LAKSHMI NARAYAN
-┣
-┣More Soon...
-┣
-╰━@Entertainment_Official_Bot━━━━
+● Dhruv Tara
+● Baghin
+● Paapnaashini Ganga 
+● Devo ke Dev Mahadev 
+● Bigg boss Ott Session 2
+● Khatron ke Khiladi 
+● Mata ki mahima 
+● Janani AI Ki kahani
+● More soon...
 
-""")
+<b>Note:</b>
+All Episode and all quality of these show available.
+
+<b>Quality:</b>
+240p
+360p
+480p
+720p/HD
+1080p/HD/FHD
+
+🤟""")
 @Client.on_message(filters.command("Baghin"))
 async def serials_bj(client, message):
     await message.reply_text("""<b>how to search BAGHIN episodes</b>
