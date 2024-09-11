@@ -8,6 +8,8 @@ class script(object):
     
 Welcome to Mythology & fantasy Show Provider Bot. Here You Can Find Many Mythology & fantasy Shows.
 
+Now We Providing Many Movie Old & New All Languages Bhojpuri Movies Also Available 😁
+
 
 Its Easy To Use Me; Just Add Me To Your Group As Admin, 
 Thats All, i will Provide  Mythology & fantasy Shows There...😊😊"""
